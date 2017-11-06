@@ -1,0 +1,19 @@
+package_name: Gack
+version: 1.0
+maintainer: Andrew Bates
+maintainer_email: abates@omeganetserv.com
+homepage: https://github.com/abates/gack
+short_description: Gack is a tool for building and packaging go programs
+description: Gack is a tool for building and packaging go programs
+build:
+  platforms:
+    darwin-10.6:
+    - "386"
+    - amd64
+    linux:
+    - "386"
+    - amd64
+    - arm-7
+    windows-10:
+    - "386"
+    - amd64
